@@ -1,0 +1,24 @@
+.page-header{
+	color: green;
+}
+
+.navbar-default{
+
+	background-color: rgb(153, 255, 153);
+	height: 20px;
+}
+.navbar-fixed-top{
+	min-height: 110px;
+
+}
+
+#logo{
+	display: inline-block;
+
+}
+
+.headerbuttons{
+	display: inline-block;
+	float: right;
+
+}
