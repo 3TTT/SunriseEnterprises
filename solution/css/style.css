@@ -4,7 +4,7 @@
 
 .navbar-default{
 
-	background-color: rgb(153, 255, 153);
+	background-color: rgb(99, 176, 176);
 	height: 20px;
 }
 .navbar-fixed-top{
@@ -17,7 +17,11 @@
 	float: left;
 }
 .menubar{
+	font: 20px arial, sans-serif;
 	text-transform: uppercase;
 	padding-top: 30px;
+	font-weight: bold;
+	padding-right: 10px;
+	display: inline-block;
 }
 
