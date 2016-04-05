@@ -16,9 +16,11 @@
 	display: inline-block;
 
 }
-
-.headerbuttons{
+.menubar{
 	display: inline-block;
-	float: right;
+	
+}
 
+ul{
+	list-style-type: none;
 }
