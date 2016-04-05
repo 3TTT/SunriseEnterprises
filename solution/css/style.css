@@ -14,13 +14,10 @@
 
 #logo{
 	display: inline-block;
-
+	float: left;
 }
 .menubar{
-	display: inline-block;
-	
+	text-transform: uppercase;
+	padding-top: 30px;
 }
 
-ul{
-	list-style-type: none;
-}
