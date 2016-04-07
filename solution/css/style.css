@@ -44,8 +44,16 @@
 
 }
 
+.googlemap{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
 
-
+.form-horizontal{
+	padding-right: 700px;
+	padding-left: 200px;
+	padding-top: 100px;
+}
 
 
 
