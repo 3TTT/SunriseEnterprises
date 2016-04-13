@@ -72,11 +72,17 @@
 	display:inline;
     vertical-align: middle;
 
+
 }
 
 .buttonalign{
 margin-bottom: 10px; 
-margin-left: 10px;
+margin-left: -25px;
  width: 200px !important;
  height: 60px;
+
+}
+
+.removedots{
+	list-style-type: none;
 }
