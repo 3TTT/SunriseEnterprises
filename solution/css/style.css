@@ -69,7 +69,7 @@
 }
 
 .buttonlist{
-	display:inline;
+	display: inline-block;
     vertical-align: middle;
 
 
@@ -81,8 +81,15 @@ margin-left: -25px;
  width: 200px !important;
  height: 60px;
 
+
 }
 
 .removedots{
 	list-style-type: none;
+}
+
+.imageslist{
+display: inline-block;
+padding-left: 10px;
+
 }
