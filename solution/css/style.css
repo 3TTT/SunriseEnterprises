@@ -24,14 +24,28 @@
 	padding-right: 10px;
 	display: inline-block;
 }
-
+/*
 .panel-footer{
+
 	background-color: rgb(61, 61, 61);
 	min-height: 80px;
 	text-align: center;
 	color: white;
 	font-weight:bold;
+}*/
+
+.footer {
+    position: fixed;
+    background-color: rgb(61, 61, 61);
+	text-align: center;
+	color: white;
+	font-weight:bold;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
 }
+
+
 
 .img-responsive{
 	padding-top: 100px;
