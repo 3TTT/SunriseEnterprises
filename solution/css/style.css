@@ -65,7 +65,7 @@
 
 .form-horizontal1{
 	display: inline-block;
-	padding-left: 220px;
+	padding-left: 160px;
 	padding-top: 40px; 
 }
 
@@ -73,7 +73,7 @@
 	display: inline-block;
 	float: right;
 	padding-top: 20px;
-	padding-right: 500px;
+	padding-right: 300px;
 }
 
 .textAboutUs{
@@ -128,4 +128,13 @@ padding-left: 20px;
 
 	padding-bottom: 100px;
 	padding-left: 160px; 
+}
+
+.grommingImagesPage{
+	background-color: brown;
+}
+.grommingImages{
+	height: 350px;
+	width: 450px;
+
 }
