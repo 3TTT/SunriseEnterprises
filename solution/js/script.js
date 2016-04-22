@@ -44,3 +44,4 @@
             document.getElementById("img2").src = "images/fashionAccessories/Baby2.jpg";
             document.getElementById("img3").src = "images/fashionAccessories/Baby3.jpg";
         }                   
+
