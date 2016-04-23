@@ -55,3 +55,44 @@
             document.getElementById("img5").src = "images/fashionAccessories/Baby5.jpg";
         }                   
 
+
+
+
+function customerDetails() {
+            var un = document.getElementById("cname").value;
+          
+            if(un===""){
+             alert("Enter name");   
+            }
+            else{
+            document.getElementById("username").innerHTML = un;
+                }
+}
+
+function bankingCustomerDetails() {
+            var bcName = document.getElementById("bankCName").value;
+            var bcEmailid= document.getElementById("emailid").value;
+            var bcMobileNo=document.getElementById("mobileno").value;
+            var bcServices=document.getElementById("services").value;
+
+            
+             if(bcName ===""){
+             alert("Please enter name");   
+            }
+            else if(bcEmailid ===""){
+             alert("Please enter Email id");   
+            }
+            else if(bcMobileNo ===""){
+             alert("Please enter Mobile no");   
+            }
+            else if(bcServices ===""){
+             alert("Please enter Type of Service");   
+            }
+            else{
+            var bcNameview ="Thank you "+bcName+"we will get back to you on your services"    
+            document.getElementById("displaybcname").innerHTML=bcNameview;     
+            document.getElementById("displayemailid").innerHTML= bcEmailid; 
+            document.getElementById("displayMobileNo").innerHTML=bcMobileNo;
+            document.getElementById("displayServices").innerHTML=bcServices;    
+            }    
+}

@@ -9,7 +9,7 @@
       <title>Bootstrap starter page</title>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
-      
+      <script src="js/script.js"></script>
     
        
    </head>
@@ -57,11 +57,11 @@
       
 <div class="tablesize">
 <div class="form-horizontal form-horizontal1">  
-   <form >
+   <form  method="post">
   <div class="form-group">
-    <label  class="col-sm-2 control-label">Name</label>
+    <label  class="col-sm-2 control-label" >Name</label>
     <div class="col-sm-10">
-      <input type="name" class="form-control form-width"  placeholder="Name">
+      <input type="name" class="form-control form-width" name="cname" id="cname" value="" placeholder="Name">
     </div>
   </div>
 
@@ -88,7 +88,7 @@
 
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Submit</button>
+      <button type="button" class="btn btn-default" onclick="customerDetails();">Submit</button>
       <button type="reset" class="btn btn-default">Reset</button>
     </div>
   </div>
@@ -107,9 +107,7 @@
 </div>
    </div>
 
-
-
-   <div class="footer">
+      <div class="footer">
          <h3 > @ All rights reserved</h3>   
          </div>
    </div>
