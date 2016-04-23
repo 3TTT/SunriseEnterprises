@@ -137,9 +137,11 @@ padding-left: 20px;
 
 .grommingImagesPage{
 	background-color: brown;
+	padding-top: 2px;
+	padding-bottom: 102px;
 }
 .grommingImages{
-	height: 350px;
-	width: 450px;
+	height: 300px;
+	width: 400px;
 
 }
