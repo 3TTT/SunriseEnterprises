@@ -26,7 +26,24 @@
    <script type="js/jquery-2.2.2.min.js"></script>
    <script type="js/boostrap.min.js"></script>
    <script type="js/script.js"></script>
-   
+
+   <script type="text/javascript">
+      var i=0;
+      var imageList=new Array();
+      imageList[0] = "images/HomePage.jpg";
+      imageList[1] = "images/shakehand.jpg";
+      imageList[2] = "images/interiordesignHomePage.jpg"
+      imageList[3] = "images/GlobalBankingHomePage.jpg";
+      imageList[4] = "images/FashionAccessioriesHomePage.jpg";
+      function slideImages() {
+         document.slide.src=imageList[i];
+         if (i<imageList.length-1) i++
+         else i=0;
+         setTimeout("slideImages()", 3000);
+      }
+      window.onload=slideImages;
+   </script>
+
    <div class="navbar navbar-default navbar-fixed-top">  
          <div id="logo" >      
        <a href="home.html"> <img src="images\Sunrise.png" alt="image location mismatch" class="img-rounded" style="width:260px;height:100px;"> </a>
@@ -36,7 +53,7 @@
          <ul class="nav navbar-nav navbar-right menubar">
             <li><a href="Services.html">Services</a></li>
             <li><a href="AboutUs.html">About US</a></li>
-            <li><a href="Support.html">Support</a></li>
+            <!-- <li><a href="Support.html">Support</a></li> -->
             <li><a href="ContactUs.html">Contact Us</a></li>
          </ul>     
          </div>   
@@ -44,7 +61,8 @@
 
       
       <div >
-         <img src="images\shakehand.jpg" alt="shakehand"  class="img-responsive img-rounded" style="width: 1000px; height: 600px;">
+         <!-- <img src="images\shakehand.jpg" alt="shakehand"  class="img-responsive img-rounded" style="width: 1000px; height: 600px;"> -->
+         <img name="slide" alt="shakehand"  class="img-responsive img-rounded" style="width: 1000px; height: 540px;">
          <h2 id="imagecaption">We make your work easy</h2>
       </div>
       

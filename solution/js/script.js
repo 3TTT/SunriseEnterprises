@@ -59,13 +59,19 @@
 
 
 function customerDetails() {
-            var un = document.getElementById("cname").value;
+            var unname = document.getElementById("cname").value;
+            var uContactNo = document.getElementById("contactNo").value;
+
           
-            if(un===""){
+            if(unname===""){
              alert("Enter name");   
             }
+            else if (uContactNo ==="") {
+             alert("Enter contact No");   
+            }
             else{
-            document.getElementById("username").innerHTML = un;
+
+            document.getElementById("username").innerHTML = uname;
                 }
 }
 
