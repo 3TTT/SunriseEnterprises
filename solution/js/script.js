@@ -89,10 +89,11 @@ function bankingCustomerDetails() {
              alert("Please enter Type of Service");   
             }
             else{
-            var bcNameview ="Thank you "+bcName+"we will get back to you on your services"    
+            var bcNameview ="Thank you "+bcName+ " we will get back to you on "+bcServices+ " service"    
             document.getElementById("displaybcname").innerHTML=bcNameview;     
-            document.getElementById("displayemailid").innerHTML= bcEmailid; 
-            document.getElementById("displayMobileNo").innerHTML=bcMobileNo;
-            document.getElementById("displayServices").innerHTML=bcServices;    
+            // document.getElementById("displayemailid").innerHTML= bcEmailid; 
+            // document.getElementById("displayMobileNo").innerHTML=bcMobileNo;
+            // document.getElementById("displayServices").innerHTML=bcServices;    
             }    
 }
+ 
