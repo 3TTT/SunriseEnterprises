@@ -71,7 +71,8 @@ function customerDetails() {
             }
             else{
 
-            document.getElementById("username").innerHTML = uname;
+            var ContactMesg ="Details Submited Successfully"    
+            document.getElementById("displayContactMesg").innerHTML=ContactMesg;  
                 }
 }
 
